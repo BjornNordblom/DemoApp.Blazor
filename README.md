@@ -32,7 +32,7 @@ Load the plugins and add the content paths.
 ```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{razor,html,cshtml}"],
+  content: ["./{Pages,Shared}/**/*.{razor,html,cshtml}"],
   theme: {
     extend: {},
   },
@@ -51,7 +51,7 @@ module.exports = {
 
 ```json
 "scripts": {
-  "tailwind": "cross-env NODE_ENV=development ./node_modules/tailwindcss/lib/cli.js -i ./Styles/input.css -o ./wwwroot/css/output.css --watch"
+  "tailwind": "cross-env NODE_ENV=development ./node_modules/tailwindcss/lib/cli.js -i ./Styles/app.css -o ./wwwroot/app.css --watch"
 },
 ```
 
