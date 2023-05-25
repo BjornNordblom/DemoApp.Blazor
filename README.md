@@ -2,6 +2,9 @@
 
 [Source](https://chrissainty.com/adding-tailwind-css-v3-to-a-blazor-app/)
 
+## Todo
+- [ ] Check out https://github.com/App-vNext/Polly
+
 ## Install
 
 `npm install -g tailwindcss cross-env`
